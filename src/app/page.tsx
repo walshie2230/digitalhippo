@@ -13,22 +13,22 @@ import Link from 'next/link'
 
 const perks = [
   {
-    name: 'Instant Delivery',
+    name: 'Why M33L?',
     Icon: ArrowDownToLine,
     description:
-      'Get your assets delivered to your email in seconds and download them right away.',
+      'Save Money. Eat Healthily. Support Local. Enjoy Variety.',
   },
   {
-    name: 'Guaranteed Quality',
+    name: 'Customise your Meals',
     Icon: CheckCircle,
     description:
-      'Every asset on our platform is verified by our team to ensure our highest quality standards. Not happy? We offer a 30-day refund guarantee.',
+      'Fine-tune your week with selections that fit your taste and goals.',
   },
   {
-    name: 'For the Planet',
+    name: 'Order for the Week not the Moment!',
     Icon: Leaf,
     description:
-      "We've pledged 1% of sales to the preservation and restoration of the natural environment.",
+      "You're gonna buy that same Burger tommorrow, right? Why not order now and save in bulk?",
   },
 ]
 
@@ -38,16 +38,16 @@ export default function Home() {
       <MaxWidthWrapper>
         <div className='py-20 mx-auto text-center flex flex-col items-center max-w-3xl'>
           <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>
-            Your marketplace for high-quality{' '}
+            Dish up weekly savings from{' '}
             <span className='text-blue-600'>
-              digital assets
+              your fav feeds
             </span>
             .
           </h1>
           <p className='mt-6 text-lg max-w-prose text-muted-foreground'>
-            Welcome to DigitalHippo. Every asset on our
-            platform is verified by our team to ensure our
-            highest quality standards.
+            Replace Sunday Meal Prep with savings and flavour.
+            Order your fav food for
+            your week ahead and SAVE.
           </p>
           <div className='flex flex-col sm:flex-row gap-4 mt-6'>
             <Link

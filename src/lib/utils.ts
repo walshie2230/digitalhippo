@@ -27,8 +27,8 @@ export function formatPrice(
 }
 
 export function constructMetadata({
-  title = 'DigitalHippo - the marketplace for digital assets',
-  description = 'DigitalHippo is an open-source marketplace for high-quality digital goods.',
+  title = 'M33L - the marketplace for Weekly Feeds',
+  description = 'M33L is a marketplace for high-quality food from your favourite vendors.',
   image = '/thumbnail.png',
   icons = '/favicon.ico',
   noIndex = false,
